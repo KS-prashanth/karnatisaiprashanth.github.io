@@ -31,13 +31,23 @@ with col1:
     #     file_path = os.path.join('comparision/clips/', i)
     #     st.audio(file_path)
     st.audio("comparision/clips/1.mp3")
+    st.audio("comparision/clips/2.mp3")
+    st.audio("comparision/clips/3.mp3")
+    st.audio("comparision/clips/4.mp3")
+    st.audio("comparision/clips/5.mp3")
+
 
 with col3:
     st.write("<h2 style='text-align: center;'>output</h2>", unsafe_allow_html=True)
     # for i in os.listdir('comparision/output/'):
     #     file_path = os.path.join('comparision/output/', i)
     #     st.audio(file_path)
-    st.audio("comparision/output/1.mp3")
+    st.audio("comparision/output/1.wav")
+    st.audio("comparision/output/2.wav")
+    st.audio("comparision/output/3.wav")
+    st.audio("comparision/output/4.wav")
+    st.audio("comparision/output/5.wav")
+    
 
 
 
