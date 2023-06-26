@@ -17,7 +17,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-st.write("<h1 style='text-align: center;'>Automated Speech Sythesis for low resource Indian language to English</h1>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: center;'>Speech to Speech Translation from Low Resource Indian Language: Hindi to English</h1>", unsafe_allow_html=True)
 
 add_bg_from_local('ssound.jpg') 
 col1, col2, col3 = st.columns(3)
